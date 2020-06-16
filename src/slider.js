@@ -21,6 +21,7 @@ export default class Slider extends PixiUI {
      */
     constructor({
         value,
+        width,
         min = 0,
         max = 1,
         frames,
@@ -38,6 +39,7 @@ export default class Slider extends PixiUI {
 
         this.grip = new PIXI.Sprite(this.frames.grip);
         this.rail = new PIXI.Sprite(this.frames.rail);
+        this.rail.width = width;
         this.value = value;
         this.min = min;
         this.max = max;
