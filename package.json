@@ -6,13 +6,13 @@
   "author": "Ahmad-Fz",
   "license": "MIT",
   "dependencies": {
-    "pixi-sound": "^3.0.4",
-    "pixi.js": "^5.2.1"
+    "pixi-sound": "^3.0.5",
+    "pixi.js": "^5.3.3"
   },
   "devDependencies": {
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
     "build": "webpack",
